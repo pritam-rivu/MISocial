@@ -1,0 +1,271 @@
+
+/* *,::after,::before{outline: 1px solid red;} */
+
+
+/*HEADER START*/
+.header .image-block .desc{width: 570px;text-align: center;
+    left: calc(50% - 285px);}
+.header .image-block .desc .text-block{max-width: 100%}
+.header .image-block  .desc .text-block h2{font-size: 86px;}
+.header .image-block .desc .text-block span{text-transform: uppercase;background-color: #6E45E3;}
+.header .image-block .desc .text-block p{padding: 24px 65px}
+.header .image-block .desc .text-block h4::after{display:inline-block;content: "";border: 1px solid #fff;width: 24px;margin-left: 16px;transform: translateY(-4px);}
+/*HEADER END*/
+
+/* BENEFITS SECTION START */
+.benefit-section{background-color: #FFFFFF;padding:285px 0;margin: 0;position: relative;overflow: hidden;}
+.benefit-section .desc {padding:0;border-radius: 50%;position: relative;z-index: 1;}
+.benefit-section .desc  img{object-fit: cover;}
+.benefit-section .desc{display: flex;justify-content: space-between;align-items: center;gap: 165px;}
+.benefit-section .desc .text-block{padding: 0;margin: 0;}
+.benefit-section .desc .text-block h2{font-family: var(--main-font);font-weight: 600;font-size: 60px;line-height: 72px;color: #4F4F6F;letter-spacing: -2px;padding: 28px 0 40px 0;margin: 0;}
+.benefit-section .desc .text-block p{display: inline-block;font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height: 28px;color: #9FA4AF;padding: 0;margin: 0;}
+.benefit-section .desc .text-block span{display: inline-block;font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height: 28px;color: #9FA4AF;padding:35px 0;}
+.benefit-section .desc .text-block a{display: inline-block;font-family: var(--main-font);font-weight: 600;font-size: 12px;color: #C2C9DB;text-transform: uppercase;padding: 15px 40px;margin: 0;background-color: #fff;border-radius: 25px;box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5)}
+.benefit-section .down-arrow{position: absolute; bottom: 70px;left: calc(50% - 30px);border:none;background:none;z-index: 9999;}
+.benefit-section .down-arrow i{color: #4F4F6F;width: 60px;height: 60px;border-radius: 50%;border:none;background-color: #fff;display: flex;justify-content: center;align-items: center;box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5)}
+.benefit-section .graphics-image{position: absolute;top: 0;right: 0;background-color: #ECF7FC;border-radius: 50%;width: 1175px;height: 1175px;transform: translate(460px,-366px);}
+.benefit-section .vector-img {position: absolute;top: 0;right: 0;transform: translate(-9px, -374px);}
+.benefit-section  .vector-img img{width: 100%;object-fit: cover;}
+/* BENEFITS SECTION END */
+
+/*  HOW WE DO IT START */
+.how-we-do-section{padding: 120px 0 0 0 ;margin: 0;background-image: url(../images/misocial-we-do-bg.png);background-repeat: round;}
+.how-we-do-section  .custom-container-2{max-width: 1770px;padding: 0 20px;margin: 0 auto;}
+.how-we-do-section .custom-container-2 .title {text-align:center; padding: 0 0 95px 0;margin: 0;}
+.how-we-do-section  .custom-container-2 .title h4{font-family: var(--main-font);font-weight: 500;font-size: 14px;line-height: 32px;letter-spacing: 2px;padding: 0 0 24px 0;margin: 0;color: #fff;text-transform: uppercase;}
+.how-we-do-section  .custom-container-2 .title h4::before{display: inline-block;content: "";border:1px solid #fff;width: 24px;margin-right:16px;transform: translateY(-4px);}
+.how-we-do-section  .custom-container-2 .title h4::after{display: inline-block;content: "";border:1px solid #fff;width: 24px;margin-left:16px;transform: translateY(-4px);}
+.how-we-do-section  .custom-container-2 .title h2{font-family: var(--main-font);font-weight: 500;font-size: 60px;line-height: 72px;color: #fff;text-transform: capitalize;padding: 0 0 40px 0;margin: 0;}
+.how-we-do-section .custom-container-2 .box-slider{margin-bottom: 120px}
+.how-we-do-section .custom-container-2 .block{display:flex;justify-content: space-between;align-items: flex-start;gap: 20px;}
+.how-we-do-section .custom-container-2 .block{padding-right: 30px;border-right: 1px solid #ffff;margin-left: 20px;margin-bottom: 65px}
+.how-we-do-section .custom-container-2 .block .icon-block{width: 62px;height: 62px;background:none;}
+.how-we-do-section .custom-container-2 .block .icon-block img{object-fit: cover;color: #fff;width: 100%;}
+.how-we-do-section .custom-container-2 .box .block .desc h3{font-family: var(--main-font);font-weight: normal;font-weight: 500;font-size: 24px;color:#fff;text-transform: capitalize; padding: 0 0 31px 0;margin: 0;}
+.how-we-do-section .custom-container-2 .box .block .desc p{font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height:28px;color:  #fff;padding: 0 0 31px 0;margin: 0;}
+.how-we-do-section .custom-container-2 .box .block .desc span{font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height:28px; color:#fff;padding: 0;margin: 0;}
+.how-we-do-section .custom-container-2 .col-lg-3:nth-child(5){padding-bottom: 200px;}
+.how-we-do-section  .company-logo-block{background: rgba(98, 146, 215 , 0.4);}
+.how-we-do-section  .company-logo-block .images-block{display: flex;align-items: center;justify-content: space-between ;padding: 88px 15px;margin: 0;}
+.how-we-do-section  .company-logo-block .images-block .image-block { max-width:14% ;}
+.how-we-do-section  .company-logo-block .images-block .image-block img{ width: 100%; height: auto;}
+
+.how-we-do-section .box-slider .slick-dots{display:flex;justify-content: space-between;align-items: center;width: max-content;margin: 0 auto;}
+.how-we-do-section .box-slider .slick-dots button{text-indent: -99999px;border: none;}
+.how-we-do-section .box-slider .slick-dots{display: flex;gap:8px;align-items: center;}
+.how-we-do-section .box-slider .slick-dots li{width: 8px;height: 8px;background-color: #BED5EE;border-radius: 50%}
+.how-we-do-section .box-slider .slick-dots li.slick-active{background-color: #fff;width: 10px;height: 10px;}
+/*  HOW WE DO IT END */
+
+
+/* WHAT WE BELIEVE START  */
+.what-we-believe-section{background-color: #F0F3F6;;padding:0;margin: 0;overflow: hidden;}
+.what-we-believe-section .image-block{width: 100%;position: relative;padding:0;}
+.what-we-believe-section .image-block img{width: 100%;object-fit: cover;}
+.what-we-believe-section .image-block .desc{position: absolute;margin: 0;text-align: left;bottom: 285px;z-index: 11;}
+.what-we-believe-section .image-block .desc .text-block{max-width: 430px;margin-left: 735px;padding: 0}
+.what-we-believe-section .image-block .desc .text-block h2{font-family: var(--main-font);font-weight: 600;font-size: 60px;line-height: 72px;color: #4F4F6F;letter-spacing: -2px;padding: 28px 0 40px 0;margin: 0;}
+.what-we-believe-section .image-block .desc .text-block p{display: inline-block;font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height: 28px;color: #9FA4AF;padding: 0;margin: 0;}
+.what-we-believe-section .image-block .desc .text-block span{display: inline-block;font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height: 28px;color: #9FA4AF;padding:35px 0;}
+.what-we-believe-section .image-block .desc .text-block a{display: inline-block;font-family: var(--main-font);font-weight: 600;font-size: 12px;color: #C2C9DB;text-transform: uppercase;padding: 15px 40px;margin: 0;background-color: #fff;border-radius: 25px;box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5)}
+.what-we-believe-section .down-arrow{position: absolute; bottom: 70px;left: calc(50% - 30px);border:none;background:none;z-index: 899}
+.what-we-believe-section .down-arrow i{color: #fff;width: 60px;height: 60px;border-radius: 50%;border:none;background-color: var(--btn-color);display: flex;justify-content: center;align-items: center;}
+.what-we-believe-section .circle-box{border-radius: 100%;background-color: #E0EEF5;border: 1px solid #E0EEF5;width: 800px;height:800px;position: absolute;top: 0;left: 0;transform: translate(-340px, -410px);}
+.what-we-believe-section .circle-box2{border-radius: 100%;background-color: #E0EEF5;border: 1px solid #E0EEF5;width: 800px;height:800px;position: absolute;bottom: 0;right: 0;transform: translate(450px, 400px);}
+/* WHAT WE BELIEVE END  */
+
+
+/* RESPONSIVE CSS START */
+@media only screen and (max-width: 1440px){
+    .what-we-believe-section .circle-box{transform: translate(-455px, -490px);}
+    .what-we-believe-section .circle-box2{transform: translate(510px, 500px);}
+    .what-we-believe-section .image-block .desc{bottom: 70px;}
+}
+@media only screen and (max-width:1326px){
+    .header .image-block .desc .text-block h2{font-size: 60px;line-height: 75px;}
+    .benefit-section{padding: 200px 0;}
+    .benefit-section .desc{gap: 0;}
+    .benefit-section .desc .text-block{width: 30%;}
+    .benefit-section .desc .text-block h2{font-size: 50px;line-height: 60px;}
+    .benefit-section .desc .image-block{width: 450px;height: 450px;display: flex;justify-content: center;align-items: center;position: absolute;right: 230px;bottom: 100px;}
+    .benefit-section .desc .image-block img{width: 100%;}
+    .benefit-section .graphics-image{transform: translate(540px,-464px);}
+    .benefit-section .vector-img{transform: translate(70px, -462px);}
+    .what-we-believe-section .image-block .desc{bottom: 55px;}
+    .what-we-believe-section .image-block .desc .text-block{margin-left: 650px;}
+    .what-we-believe-section .image-block .desc .text-block h2{padding: 10px 0;}
+
+}
+
+@media only screen and (max-width:1068px){
+    .header .image-block .desc{bottom: 70px;}
+    .what-we-believe-section .image-block .desc{bottom: 30px;}
+    .what-we-believe-section .image-block .desc .text-block{margin-left: 575px;}
+    .what-we-believe-section .image-block .desc .text-block h2{font-size: 54px;line-height: 58px;}
+    .what-we-believe-section .down-arrow{bottom: 30px;}
+    .how-we-do-section{padding: 80px 0 0 0;background-repeat: no-repeat;}
+    .how-we-do-section .custom-container-2 .box-slider{margin-bottom: 70px;}
+    .how-we-do-section .company-logo-block .images-block{padding: 60px 10px; box-sizing: border-box;}
+    .what-we-believe-section .image-block .desc .text-block span{padding: 20px 0;}
+}
+
+@media only screen and (max-width:991px){
+    .header .row{top: 20px;}
+    .header .navbar .navbar-toggler{display: flex;}
+    .benefit-section{padding: 140px 0 80px 0;}
+    .benefit-section .vector-img{display: none;}
+    .benefit-section .graphics-image{transform: translate(650px,-700px);}
+    .benefit-section .desc .image-block{width:350px;height: 350px;right: 125px;bottom: 230px;}
+    .benefit-section .desc .text-block{width: 40%;}
+    .benefit-section .down-arrow{left: calc(50% - 20px);}
+    .benefit-section .down-arrow i{width: 40px;height: 40px;}
+    .what-we-believe-section .image-block .desc .text-block h2{font-size: 43px;line-height: 47px;letter-spacing: 0;padding: 12px 0 12px 0;}
+    .what-we-believe-section .down-arrow i{width: 40px;height: 40px;}
+    .how-we-do-section .custom-container-2 .title{padding: 0 0 50px 0;}
+}
+
+@media only screen and (max-width: 925px){
+    .header .row{top: 10px;}
+    .header .image-block .desc{bottom: 48px;} 
+    .header .image-block .desc .text-block h2{font-size: 45px;line-height: 65px;}
+    .what-we-believe-section .image-block .desc{bottom: 95px;}
+    .what-we-believe-section .image-block .desc .text-block{margin-left: 400px;}
+    .what-we-believe-section .circle-box{transform: translate(-550px, -550px);}
+    .what-we-believe-section .image-block .desc .text-block h2{font-size: 30px;line-height: 34px;}
+    .what-we-believe-section .image-block .desc .text-block a{padding: 8px 20px;}
+    .what-we-believe-section .image-block .desc .text-block span{padding: 12px 0;}
+    .how-we-do-section .custom-container-2 .title h4{padding: 0 0 10px 0;}
+    .how-we-do-section .custom-container-2 .title h2{font-size: 50px;line-height: 35px;}
+    .benefit-section .desc .image-block{width: 300px;height: 300px;}
+    .benefit-section .desc .text-block h2{font-size: 40px;line-height: 48px;}
+    .benefit-section .desc .image-block{right: 33px;bottom: 175px;}
+    .benefit-section .graphics-image{transform: translate(690px,-820px);}
+    .benefit-section .desc .text-block{width: 50%;}
+}
+
+@media only screen and (max-width: 780px){
+    .header .image-block .desc{bottom: 50px;}
+    .header .image-block .desc .text-block p{padding: 5px 100px;}
+    .benefit-section .desc .image-block{width: 300px;height: 300px;}
+    .benefit-section .desc .text-block h2{font-size: 40px;line-height: 48px;}
+    .benefit-section .desc .image-block{right: 33px;bottom: 270px;}
+    .benefit-section .graphics-image{transform: translate(690px,-820px);}
+    .benefit-section .desc .text-block{width: 50%;}
+    .what-we-believe-section .image-block .desc .text-block a{padding: 9px 15px;}
+    .what-we-believe-section .image-block .desc .text-block{margin-left: 0;max-width: 100%;}
+    .what-we-believe-section .image-block .desc{bottom: 100px;}
+}
+
+@media only screen and (max-width: 650px){
+    .header .image-block .desc{bottom: 50px;}
+    .benefit-section .desc .image-block{width: 200px;height: 200px;bottom:210px;right:20px;}
+    .header .image-block .desc .text-block p{padding: 5px 100px;}
+    .benefit-section .desc .text-block{width: 60%;}
+    .benefit-section .desc .text-block h2{font-size: 30px;line-height: 37px;padding: 7px 0 14px 0;letter-spacing: -1px;}
+    .benefit-section .down-arrow{bottom: 30px;}
+    .how-we-do-section .custom-container-2 .block{flex-direction: column;margin-bottom: 50px;}
+    .how-we-do-section .company-logo-block .images-block{padding: 30px 10px;}
+    .how-we-do-section .custom-container-2 .box .block .desc h3{padding: 0 0 15px 0;}
+    .how-we-do-section .custom-container-2 .box .block .desc p{padding: 0 0 15px 0;}
+    .what-we-believe-section .image-block .desc{bottom: 41px;}
+}
+
+@media only screen and (max-width: 576px){
+    .header .image-block .desc .text-block h2{font-size: 28px;line-height: 38px;}
+    .header .image-block .desc .text-block p{font-size: 10px;line-height: 16px;}
+    .header .image-block .desc{width: 100%;left: calc(50% - 50%);bottom: 40px;}
+    .benefit-section .desc{flex-direction: column;}
+    .benefit-section .desc .text-block{width: 100%;z-index: 999;}
+    .benefit-section .desc .image-block{width: 100px;height: 100px;bottom: 345px;}
+    .benefit-section .graphics-image{width: 300px;height: 300px;transform: translate(113px,-131px);}
+    .benefit-section .down-arrow i{width: 25px;height: 25px;font-size:11px;left: calc(50% - 12px);}
+    .what-we-believe-section .circle-box{transform: translate(-176px, -193px);width: 300px;height: 300px;}
+    .what-we-believe-section .circle-box2{width: 300px;height: 300px;transform: translate(175px, 211px);}
+    .what-we-believe-section .down-arrow i{width: 25px;height: 25px;font-size:11px;left: calc(50% - 12px);}
+    .what-we-believe-section .image-block .desc .text-block span{font-size: 12px;line-height: 18px;padding: 5px 0;}
+    .what-we-believe-section .image-block .desc .text-block p{font-size: 12px;line-height: 18px;}
+    .what-we-believe-section .image-block .desc .text-block a{font-size: 10px;padding: 7px 10px;}
+    .what-we-believe-section .image-block .desc .text-block h2{font-size: 25px;line-height: 20px;}
+    .what-we-believe-section .image-block .desc{bottom: 55px;}
+    .how-we-do-section{padding: 45px 0 0 0;}
+    .how-we-do-section .custom-container-2 .title h2{font-size: 40px;line-height: 6px;padding-bottom: 10px;}
+    .how-we-do-section .custom-container-2 .title h4{font-size: 10px;}
+    .how-we-do-section .custom-container-2 .box-slider{margin-bottom: 40px;}
+    .how-we-do-section .company-logo-block .images-block .image-block{max-width: 11%;}
+}
+
+@media only screen and (max-width: 468px){
+    .header .image-block .desc{width: 100%;left: 0;bottom: 14px;}
+    .navbar-nav{height: 170px;gap: 30px;top: 48px;}
+    .header .navbar .navbar-nav a{font-size: 10px;}
+    .header .navbar .navbar-nav a.active::after{border-bottom: 1px solid #fff;bottom: -15px;}
+    .benefit-section .desc .image-block{bottom: 250px;}
+    .benefit-section .desc .text-block h2{font-size: 25px;padding: 7px 0;}
+    .benefit-section .desc .text-block p{font-size: 13px;line-height: 24px;}
+    .benefit-section .desc .text-block span{font-size: 13px;line-height: 24px;padding: 14px 0;}
+    .benefit-section .desc .text-block a{font-size: 11px;padding: 8px 20px ;}
+    .benefit-section .down-arrow{display: none;}
+    .what-we-believe-section .down-arrow{display: none}
+	.what-we-believe-section .image-block .desc{bottom: 45px}
+	.what-we-believe-section .image-block .desc .text-block a{padding: 4px 8px;}
+	.what-we-believe-section .image-block .desc .text-block span{font-size: 9px;padding: 5px 0;}
+	.what-we-believe-section .image-block .desc .text-block p{font-size: 9px;}
+	.what-we-believe-section .image-block .desc .text-block h2{font-size: 16px;line-height: 25px;letter-spacing: 0px}
+    .how-we-do-section .custom-container-2 .title h2{font-size: 30px;}
+    .how-we-do-section .custom-container-2 .title h4{font-size: 9px;}
+}
+
+@media only screen and (max-width: 425px){
+    .header .image-block .desc .text-block p{padding: 0;}
+    .header .image-block .desc .text-block h4{font-size: 8px;}
+    .header .image-block .desc .text-block h2{font-size: 24px;line-height: 33px;}
+    .header .image-block .desc{bottom: 10px;}
+    .navbar-nav{height: 150px;}
+    .header .navbar .navbar-nav{gap: 25px;}
+    .benefit-section{padding: 80px 0;}
+    .benefit-section .desc .image-block{width: 80px;height: 80px;bottom:230px ;}
+    .benefit-section .desc .text-block h2{font-size: 20px;}
+    .what-we-believe-section .image-block .desc .text-block p{line-height: 12px}
+	.what-we-believe-section .image-block .desc .text-block span{line-height: 12px}
+    .how-we-do-section .custom-container-2 .block .icon-block{width: 40px;height: 40px;}
+    .how-we-do-section .custom-container-2 .box .block .desc h3{font-size: 20px;}
+    .how-we-do-section .custom-container-2 .box .block .desc p{font-size: 14px;}
+    .how-we-do-section .custom-container-2 .box .block .desc span{font-size: 14px;}
+}
+
+@media only screen and (max-width: 368px){
+    .header .image-block .desc{bottom: 14px;}
+    .header .image-block .desc .text-block h2{font-size: 20px;line-height: 25px;}
+    .header .image-block .desc .text-block p{font-size: 8px;line-height: 12px;}
+    .navbar-nav{height: 120px;}
+    .benefit-section{padding: 80px 0 50px 0;}
+    .benefit-section .desc .text-block h2{font-size: 18px;}
+    .benefit-section .desc .text-block p{font-size: 11px;line-height: 21px;}
+    .benefit-section .desc .text-block span{font-size: 11px;line-height: 21px;padding: 5px 0 10px 0;}
+    .benefit-section .desc .text-block a{font-size: 8px;padding: 7px 14px;}
+    .benefit-section .desc .image-block{width: 65px;height: 65px;bottom: 190px;}
+    .what-we-believe-section .image-block .desc .text-block p{line-height: 12px}
+	.what-we-believe-section .image-block .desc .text-block span{line-height: 12px}
+    .what-we-believe-section .image-block .desc{bottom: 25px;}
+    .what-we-believe-section .image-block .desc .text-block a{font-size: 8px;padding: 7px 14px;}
+    .how-we-do-section{padding: 30px 0 0 0;}
+    .how-we-do-section .custom-container-2 .title h2{font-size: 25px;}
+    .how-we-do-section .company-logo-block .images-block{flex-wrap: wrap;}
+    .how-we-do-section .company-logo-block .images-block .image-block{width: 50%;text-align: center;max-width: 50%;margin: 15px 0;}
+    .how-we-do-section .company-logo-block .images-block .image-block img{width: auto;}
+}
+
+@media only screen and (max-width: 330px){
+    .header .row .col-lg-6{width: 60%;}
+    .header .image-block .desc .text-block h4{font-size: 7px;}
+    .header .image-block .desc .text-block h2{font-size: 16px;line-height: 19px;}
+    .header .btn-block a{font-size: 8px;}
+    .benefit-section .desc .text-block h2{font-size: 16px;line-height: 15px;}
+    .benefit-section .desc .image-block{width: 50px;height: 50px;bottom: 215px;}
+    .benefit-section .graphics-image{width: 200px;height: 200px;transform: translate(93px,-106px);}
+    .what-we-believe-section .image-block .desc{bottom: 14px}
+	.what-we-believe-section .image-block .desc .text-block h2{font-size: 14px;line-height: 14px;padding: 10px 0;}
+	.what-we-believe-section .image-block .desc .text-block p , span{line-height: 9px;}	
+}
+/* RESPONSIVE CSS END */

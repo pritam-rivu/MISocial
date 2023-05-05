@@ -1,0 +1,57 @@
+/* FORM SECTION START */
+.form-section{padding:125px 0;margin: 0;background-color: #F9FAFC;}
+.form-section .custom-container-4{max-width: 1470px;margin: 0 auto;padding: 0 20px;}
+.form-section .all-blocks{display: flex;justify-content: space-between;gap: 200px;}
+.form-section .all-blocks .block .text-block{padding: 0;margin: 0;}
+.form-section .all-blocks .block .text-block h2{font-family: var(--main-font);font-weight: 600;font-size: 60px;line-height: 72px;color: #4F4F6F;letter-spacing: -2px;padding: 28px 0 40px 0;margin: 0;}
+.form-section .all-blocks .block .text-block p{display: inline-block;font-family: var(--main-font);font-weight: 400;font-size: 16px;line-height: 28px;color: #9FA4AF;padding: 0;margin: 0;}
+.form-section .all-blocks .block-2 .form-label{font-family: var(--main-font);font-weight: 600;font-size: 13px;color: #9FA4AF;text-transform: uppercase;padding-bottom:15px ;margin: 0;}
+.form-section .all-blocks .block-2 .form-control{font-family: var(--main-font);font-size: 14px;font-weight: 400;padding: 10px;width: 100%;height: 60px;border-radius: 5px;}
+.form-section .all-blocks .block-2 .form-select{font-family: var(--main-font);font-size: 14px;font-weight: 400;padding: 10px;width: 100%;height: 60px;border-radius: 5px;}
+.form-section .all-blocks .block-2 textarea{width: 100%; height:170px;font-family: var(--main-font);font-size: 16px;font-weight: 400;color: #0005;border: 1px solid #EBEEF0;border-radius: 5px;resize:none}
+.form-section .all-blocks .block-2 button{font-family: var(--main-font);font-weight: 600;font-size: 12px;color: #fff;background-color:#6E45E2;text-transform:uppercase;padding: 18px 50px;margin: 0;border-radius: 30px;}
+/* FORM SECTION END */
+
+
+/* RESPONSIVE CSS START */
+@media only screen and (max-width:992px){
+    .form-section .all-blocks{gap: 135px;}
+    .form-section .all-blocks .block{max-width: 100%;}
+    .form-section .all-blocks .block .text-block h2{font-size: 45px;line-height: 50px;}
+}
+
+@media only screen and (max-width:780px){
+    .form-section{padding: 65px 0;}
+    .form-section .all-blocks .block .text-block h2{font-size: 37px;line-height: 44px;padding: 23px 0;}
+    .form-section .all-blocks .block .text-block p{font-size: 13px;line-height: 26px;}
+}
+
+@media only screen and (max-width:590px){
+    .form-section .all-blocks{gap: 90px;}
+    .form-section .all-blocks .block-2 .form-label{font-size: 11px;}
+    .form-section .all-blocks .block-2 .form-control{height: 44px;}
+    .form-section .all-blocks .block-2 .form-select{height: 44px;}
+    .form-section .all-blocks .block-2 textarea{height: 120px;}
+    .form-section .all-blocks .block-2 button{padding: 13px 26px;}
+}
+
+@media only screen and (max-width:468px){
+    .form-section .all-blocks{flex-direction: column;gap: 30px;}
+    .form-section .all-blocks .block .text-block h2{font-size: 30px;line-height: 22px;}
+    .form-section .all-blocks .block-2 button{font-size: 10px;padding: 10px 10px;}
+}
+
+@media only screen and (max-width:368px){
+    .form-section .all-blocks .block .text-block h2{font-size: 25px;line-height: 11px;}
+    .form-section .all-blocks .block-2 .form-label{padding-bottom: 10px;font-size: 10px;}
+    .form-section .all-blocks .block-2 .form-control{height: 35px;}
+    .form-section .all-blocks .block-2 .form-select{height: 35px;}
+    .form-section .all-blocks .block-2 .form-select{font-size: 12px;}
+}
+
+
+
+
+
+
+/* RESPONSIVE CSS END */
